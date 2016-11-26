@@ -96,7 +96,7 @@ function mouseUp(event) {
   }
 }
 
-function colorContinous(){
+function colorContinous(event){
   if('mouseDown'){
     event.target.style.backgroundColor = currentColor;
   }
