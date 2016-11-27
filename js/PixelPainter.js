@@ -65,7 +65,6 @@ swCanvas(44);
 
 function storeColorPicker(event) {
   currentColor = event.target.style.backgroundColor;
-  console.log(event);
 }
 
 function insertColorPicker(event) {
